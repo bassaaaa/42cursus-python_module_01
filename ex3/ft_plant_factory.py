@@ -24,6 +24,7 @@ def main() -> None:
         Plant("Fern", 15.0, 120),
     ]
 
+    print("=== Plant Factory Output ===")
     for plant in plants:
         print("Created:", end=" ")
         plant.show()
