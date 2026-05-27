@@ -11,7 +11,7 @@ class Plant:
             print("Height update rejected")
         else:
             self._height = height
-            print(f"Height updated: {round(self._height, 0)}")
+            print(f"Height updated: {round(self._height, 0)}cm")
 
     def set_age(self, age: int) -> None:
         if age < 0:
@@ -19,7 +19,7 @@ class Plant:
             print("Age update rejected")
         else:
             self._age = age
-            print(f"age updated: {round(self._age, 0)}")
+            print(f"age updated: {round(self._age, 0)} days")
 
     def show(self) -> None:
         print(
@@ -48,7 +48,7 @@ def main() -> None:
     rose.set_age(-1)
     print()
 
-    print("Current state", end=" ")
+    print("Current state:", end=" ")
     rose.show()
 
 
