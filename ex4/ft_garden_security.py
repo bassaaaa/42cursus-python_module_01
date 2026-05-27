@@ -34,8 +34,9 @@ class Plant:
 
 
 def main() -> None:
+    print("=== Garden Security System ===")
     rose = Plant("Rose", 25.0, 30)
-    print("Plants created:", end=" ")
+    print("Plant created:", end=" ")
     rose.show()
     print()
 
